@@ -1,0 +1,46 @@
+name: cartguard_mobile
+description: "CartGuard AI - Smart shopping with real-time cart-abandonment recovery."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # State management
+  provider: ^6.1.2
+
+  # Networking
+  http: ^1.2.1
+
+  # Local storage (auth token, cart cache)
+  shared_preferences: ^2.2.3
+
+  # Fonts & UI polish
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  flutter_svg: ^2.0.10+1
+
+  # Formatting
+  intl: ^0.19.0
+
+  # Nice UX touches
+  fluttertoast: ^8.2.5
+  animations: ^2.0.11
+  lottie: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
